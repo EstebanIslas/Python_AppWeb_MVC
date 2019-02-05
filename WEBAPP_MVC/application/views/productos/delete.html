@@ -1,0 +1,21 @@
+$def with(datos)
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Eliminar Producto</h1><br>
+    <form method="POST">
+      <label for="nombre">Nombre Producto</label>
+      <input type="text" readonly="true" value="$datos.nombre" id="nombre" name="nombre">
+      <br>
+      <label for="marca">Marca</label>
+      <input type="text" readonly="true" value="$datos.marca" id="marca" name="marca">
+      <br>
+      <label for="clase">Clase</label>
+      <input type="text" readonly="true" value="$datos.clase" id="clase" name="clase">
+      <br>
+      <label for="precio">Precio</label>
+      <input type="text" readonly="true" value="$datos.precio" id="precio" name="precio">
+      <br>
+      <button type="submit" class="btn btn-primary">Eliminar</button>
+      </form>
+  </div>
+</div>

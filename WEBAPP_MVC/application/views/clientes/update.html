@@ -1,0 +1,23 @@
+$def with(datos)
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Actualizar Cliente</h1><br>
+        
+        <form method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" readonly="true" value="$datos.nombre" id="nombre" name="nombre">
+                <br>
+                <label for="ape_pat">Apellido Paterno</label>
+                <input type="text" value="$datos.ape_pat" id="ape_pat" name="ape_pat">
+                <br>
+                <label for="ape_mat">Apellido Materno</label>
+                <input type="text" value="$datos.ape_mat" id="ape_mat" name="ape_mat">
+                <br>
+                <label for="colonia">Colonia</label>
+                <input type="text" value="$datos.colonia" id="colonia" name="colonia">
+                <br>
+                <center><button type="submit" class="btn btn-primary btn-lg">Actualizar</button></center>
+        </form>    
+    </div>
+</div>
+
